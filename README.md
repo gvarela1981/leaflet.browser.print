@@ -4,9 +4,11 @@ A [leaflet](http://www.leafletjs.com) plugin which allows users to print full pa
 
 Check out the [DEMO v0.7.7](https://igor-vladyka.github.io/leaflet.browser.print/examples/v0.7.7.html)
 
-[DEMO v1.0.3](https://gvarela1981.github.io/leaflet.browser.print/examples/v1.0.3.html) 
+[DEMO v1.0.3](https://gvarela1981.github.io/leaflet.browser.print/examples/v1.0.3.html) It should set the circle's fill to transparent before print and restore it after printing
 
-[DEMO v1.0.3 pre-print](https://gvarela1981.github.io/leaflet.browser.print/examples/v1.0.3-pre-print-example.html) 
+[DEMO v1.0.3 pre-print](https://gvarela1981.github.io/leaflet.browser.print/examples/v1.0.3-pre-print-example.html) It sets the circle's fill to transparent and restores it after printing
+
+
 and a [DEMO with custom print layer and additional page content](https://igor-vladyka.github.io/leaflet.browser.print/);
 
 ### Downloads
