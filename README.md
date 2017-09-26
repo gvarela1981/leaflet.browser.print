@@ -2,7 +2,10 @@
 
 A [leaflet](http://www.leafletjs.com) plugin which allows users to print full page map directly from the browser. Compatible with Leaflet v0.7.7 and v1.0.3.
 
-Check out the [DEMO v0.7.7](https://igor-vladyka.github.io/leaflet.browser.print/examples/v0.7.7.html), [DEMO v1.0.3](https://igor-vladyka.github.io/leaflet.browser.print/examples/v1.0.3.html) and a [DEMO with custom print layer and additional page content](https://igor-vladyka.github.io/leaflet.browser.print/);
+Check out the [DEMO v0.7.7](https://igor-vladyka.github.io/leaflet.browser.print/examples/v0.7.7.html)
+[DEMO v1.0.3](https://igor-vladyka.github.io/leaflet.browser.print/examples/v1.0.3.html) 
+[DEMO v1.0.3 pre-print](https://gvarela1981.github.io/leaflet.browser.print/examples/v1.0.3.html) 
+and a [DEMO with custom print layer and additional page content](https://igor-vladyka.github.io/leaflet.browser.print/);
 
 ### Downloads
 **NPM**
@@ -69,6 +72,7 @@ L.browserPrint({
 
 | Map Event           | Value           		 | Description 													 |
 | ------------------- | ------------------------ | ------------------------------------------------------------- |
+| pre-print           | { printLayer, printMap } | Fire on print started, before all print calculations is done. |
 | browser-print-start | { printLayer, printMap } | Fire on print started, before all print calculations is done. |
 | browser-print       | { printLayer, printMap } | Fire right before native print. 								 |
 | browser-print-end   | { printLayer, printMap } | Fire on print end, after we refresh map to show initial view. |
